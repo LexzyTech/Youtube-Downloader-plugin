@@ -1,0 +1,28 @@
+/* Add your CSS styles here */
+#youtube-downloader {
+    margin-bottom: 20px;
+}
+#youtube-downloader label {
+    display: block;
+    margin-bottom: 5px;
+}
+#youtube-downloader input[type="text"],
+#youtube-downloader select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#youtube-downloader button {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#download-progress {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#download-progress.error {
+    color: red;
+}
